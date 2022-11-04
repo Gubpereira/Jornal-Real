@@ -1,0 +1,214 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(rgb(205, 205, 99),black);
+}
+
+header img {
+    width: 200px;
+}
+
+.content {
+    height: 180px;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+.blocka {
+    width: 100%;
+    margin: 50px 0;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+main a:hover {
+    color: rgb(209, 209, 112);
+    font-size: 20px;
+    transition: 0.8s;
+}
+
+.block {
+    display: block;
+    margin-bottom: 80px;
+}
+
+main img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+main img:hover {
+    width: 270px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.txt {
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(black,rgb(205, 205, 99));
+    text-align: center;
+}
+
+.int {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+footer img {
+    width: 210px;
+}
+
+.block1 {
+    display: inline-flex;
+}
+
+.tag1 {
+    padding-right: 75px;
+    border-right: 1px;
+    border-style: solid;
+}
+
+.tag2 {
+    padding-right: 75px;
+    padding-left: 75px;
+    border-right: 1px;
+    border-style: solid;
+}
+
+.tagdiff {
+    padding-left: 75px;
+}
+
+.redirect {
+    color: lightblue;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.expec1 {
+    font-weight: normal;
+    font-size: 13px;
+    color: black;
+}
+
+.expec2 {
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(54, 54, 54);
+}
+
+.expec3 {
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(124, 124, 124);
+}
+
+.blockdu1 {
+    display: inline-flex;
+    margin: 30px 0;
+    vertical-align: middle;
+    padding-right: 150px;
+}
+
+.blockdu1diff {
+    display: inline-flex;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+
+.blockdu2 {
+    display: inline-flex;
+    margin: 30px 0;
+    vertical-align: middle;
+    padding-right: 150px;
+}
+
+.blockdu2diff {
+    display: inline-flex;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width:500px) {
+    main {
+        text-align: center;
+    }
+
+    .block1 {
+        display: block;
+    }
+
+    .tag1 {
+        padding-right: 0;
+        border-right: 0;
+    }
+
+    .tag2 {
+        padding-right: 0;
+        border-right: 0;
+        padding-left: 0;
+    }
+
+    .tagdiff {
+        padding-left: 0;
+    }
+
+    .blockdu1 {
+        display: block;
+        margin: 0;
+        padding-right: 0;
+    }
+
+    .block {
+        margin-bottom: 30px;
+    }
+
+    .blockdu1diff {
+        display: block;
+    }
+
+    .blockdu2 {
+        display: block;
+        padding-right: 0;
+    }
+
+    .blockdu2diff {
+        display: block;
+    }
+}

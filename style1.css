@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgb(205, 205, 99),black);
+    height: 180px;
+}
+
+header img {
+    width: 200px;
+}
+
+.content {
+    text-align: center;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: 75px;
+}
+
+.ui {
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: goldenrod;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+main .p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+main .pdiff {
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.body {
+    margin-bottom: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.bodyn {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.divimg {
+    text-align: center;
+    margin: 30px;
+}
+
+.ftimg {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.charimg {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.bodydx {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bodyx {
+    font-size: 20px;
+}
+
+footer {
+    background: linear-gradient(black,rgb(205, 205, 99));
+    text-align: center;
+}
+
+footer img {
+    width: 250px;
+}
+
+@media only screen and (max-width:500px) {
+    header {
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .body {
+        margin-bottom: 70px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .charimg {
+        width: 350px;
+    }
+}
